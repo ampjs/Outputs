@@ -1,6 +1,6 @@
 {
-  "name": "outputs",
-  "version": "0.1.0",
+  "name": "@ampersarnie/outputs",
+  "version": "0.1.1",
   "description": "Shortcuts for Nodes STDOUT.",
   "main": "outputs.js",
   "options": {},
@@ -11,6 +11,13 @@
     "test:lint": "eslint -c .eslint src/*",
     "compile": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
     "build:dev": "npm run test; npm run compile;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ampjs/Outputs.git"
+  },
+  "bugs": {
+      "url": "https://github.com/ampjs/Outputs/issues"
   },
   "watch": {
     "test": {
@@ -25,7 +32,7 @@
     ]
   },
   "keywords": [
-    "react",
+    "node",
     "javascript",
     "es6"
   ],
